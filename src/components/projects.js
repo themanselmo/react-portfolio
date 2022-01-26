@@ -2,6 +2,9 @@ import Divider from '@mui/material/Divider';
 import ProjectCard from "./projectCard"
 import image from "../assets/portrait.PNG"
 import rootbasePic from "../assets/rbsnippet.PNG"
+import optiPic from "../assets/optisnippet.PNG"
+import lapelPic from "../assets/lapelsnippet.PNG"
+
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
@@ -29,15 +32,15 @@ const Projects = () => {
                 projectDesc={"Application designed to help users keep track of and plan mileage they will accrue on their vehicles."}
                 techs={["React", "Ruby on Rails", "PostgreSQL", "MaterialUI"]}
                 githubLink={"https://github.com/themanselmo/optaroute"}
-                imagesrc={image}
+                imagesrc={optiPic}
 
             />
             <ProjectCard 
                 projectName={"Lapel"}
                 projectDesc={"Online marketplace that enables users to list collections of items to be sold."}
-                techs={["React", "Ruby", "SQLite"]}
+                techs={["React", "Ruby", "SQLite", "Material UI"]}
                 githubLink={"https://github.com/themanselmo/Lapel"}
-                imagesrc={image}
+                imagesrc={lapelPic}
 
             />
         </div>
