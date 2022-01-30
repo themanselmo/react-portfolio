@@ -27,7 +27,7 @@ const Projects = () => {
                 imagesrc={rootbasePic}
             />
             <ProjectCard 
-                projectName={"Optaroute"}
+                projectName={"Optiroute"}
                 projectDesc={"Application designed to help users keep track of and plan mileage they will accrue on their vehicles."}
                 techs={["React", "Ruby on Rails", "PostgreSQL", "MaterialUI"]}
                 githubLink={"https://github.com/themanselmo/optaroute"}
