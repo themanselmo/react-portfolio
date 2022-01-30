@@ -12,9 +12,9 @@ const Contact = () => {
             <Divider />
 
             <Stack direction="row" spacing={2}>
-                <Link href="">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/maxanselmo/">LinkedIn</Link>
                 <Link href="https://github.com/themanselmo">Github</Link>
-                <Link href="">Blogs</Link>
+                <Link href="https://dev.to/themanselmo">Blogs</Link>
             </Stack>
             
         </div>
