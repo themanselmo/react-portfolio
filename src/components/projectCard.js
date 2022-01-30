@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
@@ -17,8 +18,7 @@ const ProjectCard = ({ projectName, projectDesc, techs, githubLink, imagesrc}) =
             <ul className="Tech-List">
                 {techs.map(tech => <li>{tech}</li>)}
             </ul>
-            
-            <a href={githubLink}>Github</a>
+            <Link href={githubLink}>Github</Link>
         </div>
     )
 }

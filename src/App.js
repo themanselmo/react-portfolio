@@ -3,11 +3,23 @@ import About from './components/about';
 import Header from './components/header';
 import Projects from './components/projects';
 import Welcome from './components/welcome';
+import Contact from './components/contact';
 
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
 import Blogs from './components/blogs';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { red } from '@mui/material/colors';
+import Paper from '@mui/material/Paper';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: red[500],
+    },
+  },
+});
 
 function App() {
 
@@ -16,13 +28,16 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <Header />
-      <Welcome id="Welcome" />
-      <About id="About" />
-      <Projects id="Projects" />
-      <Blogs id="Blogs" />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Header />
+        <Welcome id="Welcome" />
+        <About id="About" />
+        <Projects id="Projects" />
+        <Blogs id="Blogs" />
+        <Contact id="Contact" />
+      </div>
+    </ThemeProvider>
   );
 }
 
