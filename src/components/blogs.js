@@ -39,7 +39,7 @@ const Blogs = () => {
     return (
         <div id="Blogs" className="Section" data-aos="fade-up">
             <div className="Section-Header">
-                <h4>04.</h4>
+                <h4>03.</h4>
                 <h3>Blog Posts</h3>
             </div>
             

@@ -1,11 +1,15 @@
 html {
   background: #282c34;
+  
+  scroll-behavior: smooth;
+
 }
 
 .App {
   /* text-align: center; */
   margin-left: 4em;
   margin-right: 4em;
+  color: whitesmoke;
 }
 
 #header-content {

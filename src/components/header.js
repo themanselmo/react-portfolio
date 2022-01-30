@@ -9,6 +9,7 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 import { useState } from 'react';
 
 import { HashLink } from 'react-router-hash-link';
+import { Link } from '@mui/material';
 
 const Header = () => {
     const [rightState, setRightState] = useState({
@@ -31,13 +32,13 @@ const Header = () => {
         >
           <List>
             {['Welcome', 'About', 'Projects', 'Blogs'].map((text, index) => (
-              <HashLink smooth to={`/#${text}`}>
+              <Link href={`/#${text}`}>
                 <ListItem button key={text}>
                   
                     <ListItemText primary={text} />
                   
                 </ListItem>
-              </HashLink>
+              </Link>
               
             ))}
           </List>
