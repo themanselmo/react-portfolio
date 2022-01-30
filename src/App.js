@@ -11,7 +11,6 @@ import { useEffect } from 'react';
 import Blogs from './components/blogs';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
-import Paper from '@mui/material/Paper';
 
 const theme = createTheme({
   palette: {

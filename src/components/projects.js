@@ -1,6 +1,5 @@
 import Divider from '@mui/material/Divider';
 import ProjectCard from "./projectCard"
-import image from "../assets/portrait.PNG"
 import rootbasePic from "../assets/rbsnippet.PNG"
 import optiPic from "../assets/optisnippet.PNG"
 import lapelPic from "../assets/lapelsnippet.PNG"
