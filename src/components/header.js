@@ -8,7 +8,6 @@ import DehazeIcon from '@mui/icons-material/Dehaze';
 
 import { useState } from 'react';
 
-import { HashLink } from 'react-router-hash-link';
 import { Link } from '@mui/material';
 
 const Header = () => {
