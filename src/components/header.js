@@ -49,7 +49,7 @@ const Header = () => {
       
 
     return (
-        <div id="header">
+        <div id="header" className="Sectiona">
           <div id="header-content">
             <h1>manselmo.dev</h1>
             <Button id="nav-button" onClick={toggleDrawer('right', true)}><DehazeIcon id="nav-button"/></Button>

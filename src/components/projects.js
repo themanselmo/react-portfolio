@@ -16,8 +16,10 @@ const Projects = () => {
     
     return (
         <div id="Projects" className="Section" data-aos="fade-up">
-            <h4>02.</h4>
-            <h3>Passion Projects</h3>
+            <div className='Section-Header'>
+                <h4>02.</h4>
+                <h3>Passion Projects</h3>
+            </div>
             <Divider />
             <ProjectCard 
                 projectName={"Rootbase"}

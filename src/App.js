@@ -11,6 +11,7 @@ import { useEffect } from 'react';
 import Blogs from './components/blogs';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
+import { Grid } from '@mui/material';
 
 const theme = createTheme({
   palette: {
@@ -32,9 +33,19 @@ function App() {
         <Header />
         <Welcome id="Welcome" />
         <About id="About" />
+        <div className="spacer layer2" id="Welcome-Wrappera" data-aos="fade-up"></div>
+        <div className="spacer layer1" id="Welcome-Wrappera"></div>
         <Projects id="Projects" />
-        <Blogs id="Blogs" />
-        <Contact id="Contact" />
+        <Grid container spacing={2}>
+          <Grid item xs={8}>
+            <Blogs id="Blogs" />
+          </Grid>
+          <Grid item xs={4}>
+            <Contact id="Contact" />
+          </Grid>
+          
+        </Grid>
+        <div className="spacer layer2" id="Welcome-Wrappera"></div>
       </div>
     </ThemeProvider>
   );

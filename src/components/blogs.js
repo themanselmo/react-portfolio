@@ -37,7 +37,7 @@ const Blogs = () => {
     </div>)
 
     return (
-        <div id="Blogs" className="Section" data-aos="fade-up">
+        <div id="Blogs" className="Section-Bottom" data-aos="fade-up">
             <div className="Section-Header">
                 <h4>03.</h4>
                 <h3>Blog Posts</h3>
@@ -47,7 +47,7 @@ const Blogs = () => {
 
             <div id="Blog-Posts">
                 {renderBlogs(blogs)}
-                <Link href={"https://dev.to/themanselmo"}><h4>more...</h4></Link>
+                <Link href={"https://dev.to/themanselmo"}>more...</Link>
             </div>
         </div>
     )

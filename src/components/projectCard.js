@@ -11,7 +11,6 @@ const ProjectCard = ({ projectName, projectDesc, techs, githubLink, imagesrc}) =
 
     return (
         <div className="Project-Card" data-aos="fade-up">
-            <h4>Featured Project</h4>
             <h3>{projectName}</h3>
             <img className="Card-Image" src={imagesrc} alt="demonstration of project"/>
             <p>{projectDesc}</p>
